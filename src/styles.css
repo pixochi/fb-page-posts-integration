@@ -1,0 +1,62 @@
+textarea {
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+#app {
+    min-height: 100vh;
+    background-color: #252526;
+    color: #e4e6eb;
+}
+
+#app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #6f6f6f;
+    padding: 0 12px;
+}
+
+#logo-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#app-main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+.app-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-section:not(:first-child) {
+    margin-top: 24px;
+}
+
+.btn {
+    border-radius: 4px;
+    color: #e4e6eb;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+}
+
+.btn:not(:disabled):hover {
+    filter: brightness(0.9);
+}
+
+.confirm-btn {
+    margin-top: 8px;
+    background-color: #2d88ff;
+}
+
+.placeholder-container {
+    display: flex;
+    justify-content: center;
+}
