@@ -1,5 +1,7 @@
 React app for posting on Facebook pages with the Facebook's Graph API
 
+You can read more about the app on: https://medium.com/@kozak.jakub55/how-to-post-on-your-facebook-page-with-the-graph-api-701b2a79b056
+
 ## More about Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
